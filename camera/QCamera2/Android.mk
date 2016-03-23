@@ -50,6 +50,7 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../mm-image-codec/qomx_core \
         $(LOCAL_PATH)/util \
         hardware/qcom/media-caf/msm8952/mm-core/inc \
+        $(LOCAL_PATH)/HAL3 \
 
 #HAL 1.0 Include paths
 LOCAL_C_INCLUDES += \
