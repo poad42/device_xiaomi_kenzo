@@ -33,8 +33,26 @@ PRODUCT_PACKAGES += \
     Snap
 
 # Fingerprint
-PRODUCT_PACKAGES += \
     fingerprint.msm8952
+
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+    libhealthd.cm
+
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.usb.id.midi=90BA \
+    ro.usb.id.midi_adb=90BB \
+    ro.usb.id.mtp=300B \
+    ro.usb.id.mtp_adb=300C \
+    ro.usb.id.ptp=300D \
+    ro.usb.id.ptp_adb=300E \
+    ro.usb.id.ums=300F \
+    ro.usb.id.ums_adb=3010 \
+    ro.usb.vid=2a96
+
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -55,10 +73,6 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
-# Charger
- PRODUCT_PACKAGES += \
-     charger_res_images
 
 # Disk Encryption
  PRODUCT_PACKAGES += \
