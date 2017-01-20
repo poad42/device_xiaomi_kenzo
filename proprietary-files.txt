@@ -576,6 +576,11 @@ vendor/lib/libdpmframework.so
 vendor/lib/libdpmnsrm.so
 vendor/lib/libdpmtcm.so
 
+# Widevine
+vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libwvdrm_L3.so
+vendor/lib/mediadrm/libwvdrmengine.so
+
 # DRM
 bin/qseecomd
 vendor/lib64/lib-sec-disp.so
