@@ -822,6 +822,42 @@ vendor/lib/libmdmdetect.so
 vendor/lib/libxml.so
 vendor/qcril.db
 
+# Radio - IMS - from Mi Max
+bin/ims_rtp_daemon|896a7d67d73f9c0ef0f48f86af0e055737c781df
+bin/imscmservice|c606b123bdd105866947a9ae19aab05349ad2dfd
+bin/imsdatadaemon|2aa4067b74fe525411984f87666d81c5b6b575d3
+bin/imsqmidaemon|88886668eda7b7303b4a7aefd5b8b3fbffd81b02
+etc/mbn_ota.txt
+etc/permissions/imscm.xml|8b99ec26c783966bbea1fcb8e72c7c0206a4e802
+framework/imscmlibrary.jar|0c24d6540c06efede52169c1445272f43748180f
+framework/rcsimssettings.jar|566a0f637344ca3182aca33753e404977fc77ecc
+-vendor/app/ims/ims.apk|b010cebe6f4b201abbf7cb19dc53116bd5c48566
+-vendor/app/imssettings/imssettings.apk|1e0abc52f8f95e3380948bc13d27ecf5a5c40896
+vendor/lib64/lib-dplmedia.so|45de23a1bf2c758e71556b88fa01e1f705775b96
+vendor/lib64/lib-ims-rcscmjni.so|57a7cffdf589247b7fa38082418076e491b306ca
+vendor/lib64/lib-imsSDP.so|addec91cf24280784f619433e325bcb84ac11d5d
+vendor/lib64/lib-imscamera.so|91ca29c045cdeea9595c9f0296adfd06df1a96f9
+vendor/lib64/lib-imsdpl.so|4b60872a3fec6322eb8b59ad615f1500e595a3d3
+vendor/lib64/lib-imsqimf.so|0d43b899672607565cc5c4badb23cbb632a296e1
+vendor/lib64/lib-imsrcs.so|4a892bcc2b017df581e67ae00bbd143d93b9b9a6
+vendor/lib64/lib-imsrcscm.so|f783e1ea0dfa84392e92bd00d79b6be9fe4fdc1a
+vendor/lib64/lib-imsrcscmclient.so|5a24f31ed2bd8ebcca68583b2750c3fe9fc8a0b0
+vendor/lib64/lib-imsrcscmservice.so|3cbb7c5437eaea86fab6db8cddce05c3a0b15852
+vendor/lib64/lib-imss.so|f3bc1038d5720da58d1d1eb8e1ed6cec4ad93db4
+vendor/lib64/lib-imsvt.so|cea3470558b39e3b1aa365e0e7dcafc69a3b6094
+vendor/lib64/lib-imsxml.so|babc9429f0291038b6161b212935e03363d5d921
+vendor/lib64/lib-rcsimssjni.so|80faffa65b5060c208fd4bc0085eebf7615fbb3a
+vendor/lib64/lib-rcsjni.so|be1741963dfab27b86fe51e865e48e8548bedd40
+vendor/lib64/lib-rtpcommon.so|16d49c1c1475a4fe9b3d2f7632bc4f199a87c4ce
+vendor/lib64/lib-rtpcore.so|7ebfa9d640984dbee4e5287a86883c991089497a
+vendor/lib64/lib-rtpdaemoninterface.so|f1f72a6a131830d3c71405362e975f61bb53386f
+vendor/lib64/lib-rtpsl.so|6a7f9f2fc38c210ffa9235bb0d61e18b6871a5dd
+vendor/lib64/libimscamera_jni.so|53000f12da581742742fbf80a2d46616d4b4283e
+vendor/lib64/libimsmedia_jni.so|35be419f4fabc1e2388c7cc01e95442f1f90e833
+vendor/lib64/librcc.so|661771f4b6c5f26037cc0fb5de83a86c08023995
+vendor/lib64/libvoice-svc.so|59342d5d6ee1b6c5b21e0067120acf60bbcc8ef0
+
+
 # Sensors
 bin/sensors.qcom
 vendor/lib64/hw/activity_recognition.msm8952.so
