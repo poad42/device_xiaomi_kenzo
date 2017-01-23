@@ -55,7 +55,7 @@ LOCAL_CFLAGS += -DUSE_ION
 endif
 
 OMX_HEADER_DIR := frameworks/native/include/media/openmax
-OMX_CORE_DIR := device/xiaomi/kenzocamera/mm-image-codec
+OMX_CORE_DIR := device/xiaomi/kenzo/camera/mm-image-codec
 
 LOCAL_C_INCLUDES := $(MM_JPEG_TEST_PATH)
 LOCAL_C_INCLUDES += $(MM_JPEG_TEST_PATH)/../inc
