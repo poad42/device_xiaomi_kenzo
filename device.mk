@@ -29,7 +29,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8952 \
     libqomx_core \
-    libmm-qcamera
+    libmm-qcamera \
+    Snap
 
 # Input
 PRODUCT_COPY_FILES += \
