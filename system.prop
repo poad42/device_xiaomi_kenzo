@@ -17,6 +17,9 @@ persist.radio.redir_party_num=0
 # Multitasking Optimisations
 ro.sys.fw.bg_apps_limit=64
 
+# Bluetooth
+persist.bt.enableAptXHD=true
+
 #system prop for RmNet Data
 persist.rmnet.data.enable=true
 persist.data.wda.enable=true
