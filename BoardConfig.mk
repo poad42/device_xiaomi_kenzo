@@ -32,6 +32,12 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26838785024 # 26838801408 - 16384
 TARGET_KERNEL_CONFIG := unicornblood_defconfig
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+#Audio
+TARGET_USES_QCOM_MM_AUDIO := true
+
+# Use CLANG
+USE_CLANG_PLATFORM_BUILD := true
+
 # Properties
 TARGET_SYSTEM_PROP += device/xiaomi/kenzo/system.prop
 

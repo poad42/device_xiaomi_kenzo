@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
     Snap
 
 # Fingerprint
-    fingerprint.msm8952
+PRODUCT_PACKAGES += \
+    fingerprint.msm8952 \
 
 # Charger
 PRODUCT_PACKAGES += \
