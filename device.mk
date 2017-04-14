@@ -64,6 +64,5 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
      libcryptfs_hw
 
-
 # Inherit from msm8956-common
 $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
